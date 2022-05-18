@@ -1,0 +1,41 @@
+.content{
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.content-title{
+    font-size: 2rem;
+    font-size: clamp(2rem, 5vw, 3rem );
+}
+
+.text {
+    font-size: 1.2rem;
+    line-height: 30px;
+    color: hsl(0, 0%, 41%);
+}
+.button {
+    margin-block: 0.5rem;
+    color: hsl(0, 0%, 98%);
+    background-color: hsl(0, 0%, 8%);
+    border: none;
+    padding: 0.7rem 1rem;
+    border-radius: 10px;
+
+}
+
+
+.logoContainer{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.logoContainer img{
+    height: auto;
+    width: 80%;
+}
