@@ -1,0 +1,10 @@
+
+@media screen and (min-width:800px) {
+    .mainContent{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid;
+    }
+}

@@ -9,7 +9,7 @@ import style from "./Modal.module.css";
 
 const Modal = () => {
   return (
-    <div className={style.disabled}>
+    <>
       <Overlay />
       <nav className={style.modal}>
         <div className={style.closeMenuContainer}>
@@ -26,7 +26,7 @@ const Modal = () => {
           <button className={style.registerBtn}>Register</button>
         </section>
       </nav>
-    </div>
+    </>
   );
 };
 

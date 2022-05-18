@@ -17,6 +17,7 @@
     font-size: 1.2rem;
     line-height: 30px;
     color: hsl(0, 0%, 41%);
+    max-width: 400px;
 }
 .button {
     margin-block: 0.5rem;
