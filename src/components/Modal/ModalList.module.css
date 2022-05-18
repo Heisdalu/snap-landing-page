@@ -1,0 +1,10 @@
+.toggleList{
+  border: 1px solid red;
+}
+
+.inner{
+  margin: 1rem 0;
+  display: flex;
+  gap: 1rem;
+}
+

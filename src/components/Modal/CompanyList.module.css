@@ -1,0 +1,12 @@
+.innerList {
+  border: 1px solid;
+  list-style: none;
+  padding-left:1rem ;
+}
+
+.innerList li {
+  margin: 1rem 0;
+  display: flex;
+  gap: 0.8rem;
+}
+

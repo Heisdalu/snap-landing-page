@@ -1,8 +1,48 @@
-.modal{
-    position: fixed;
-    top: 0;
-    right: 0;
-    height: 100vh;
-    background-color: white;
-    width: 70%;
+.modal {
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  background-color: #fafafa;
+  width: 70%;
+  color: #696969;
+}
+
+.closeMenuContainer {
+  display: flex;
+  justify-content: right;
+}
+
+.navList {
+  border: 1px solid;
+  margin: 1rem 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.loginBtn {
+  padding: 0.2rem;
+  font-size: 1rem;
+  border: none;
+  background: none;
+}
+
+.registerBtn {
+  padding: 0.5rem 3rem;
+  margin: 3px 0;
+  border-radius: 10px;
+  background: none;
+  border: 1px solid #141414;
 }
