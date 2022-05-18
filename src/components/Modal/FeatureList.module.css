@@ -18,3 +18,19 @@
   display: flex;
   gap: 0.8rem;
 }
+
+@media screen and (min-width: 800px) {
+  .inner {
+    gap: 0.5rem;
+  }
+
+  .innerList {
+    position: absolute;
+    padding: 0;
+    right: 0;
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px hsla(0, 0%, 8%, 0.422);
+  }
+}
