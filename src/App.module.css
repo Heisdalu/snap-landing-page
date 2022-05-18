@@ -4,11 +4,7 @@
     box-sizing: border-box;
 }
 
-body{
+html ,body{
     background-color: hsl(0, 0%, 98%);
+    overflow-x: hidden;
 }
-
-
-/* .main-wrapper{
-
-} */

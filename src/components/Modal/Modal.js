@@ -9,8 +9,8 @@ import style from "./Modal.module.css";
 
 const Modal = () => {
   return (
-    <>
-    <Overlay />
+    <div className={style.disabled}>
+      <Overlay />
       <nav className={style.modal}>
         <div className={style.closeMenuContainer}>
           <img src={CloseMenu} alt="Close-menu button" />
@@ -26,7 +26,7 @@ const Modal = () => {
           <button className={style.registerBtn}>Register</button>
         </section>
       </nav>
-    </>
+    </div>
   );
 };
 

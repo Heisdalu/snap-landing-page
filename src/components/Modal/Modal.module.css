@@ -9,13 +9,18 @@
   color: #696969;
 }
 
+.disabled{
+  /* overflow: hidden; */
+  /* transform: translateX(10%); */
+  transform: translateX(100%);
+}
+
 .closeMenuContainer {
   display: flex;
   justify-content: right;
 }
 
 .navList {
-  border: 1px solid;
   margin: 1rem 0;
   list-style: none;
   display: flex;
@@ -26,7 +31,6 @@
 .buttonContainer {
   display: flex;
   flex-direction: column;
-  border: 1px solid;
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
