@@ -40,3 +40,11 @@
     height: auto;
     width: 80%;
 }
+
+@media screen and (min-width: 800px) {
+    .content{
+        text-align: left;
+        align-items: flex-start;
+        gap: 1.5rem;
+    }
+}
