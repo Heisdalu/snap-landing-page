@@ -8,3 +8,8 @@ html ,body{
     background-color: hsl(0, 0%, 98%);
     overflow-x: hidden;
 }
+
+
+body{
+    font-family: 'Epilogue', sans-serif;
+}
