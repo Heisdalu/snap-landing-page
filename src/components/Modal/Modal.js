@@ -2,21 +2,24 @@
 // import ArrowDown from '../../assets/icon-arrow-down.svg'
 
 import CloseMenu from "../../assets/icon-close-menu.svg";
-import ModalList from "./ModalList";
+// import ModalList from "./ModalList";
+import FeatureList from "./FeatureList";
+import CompanyList from "./CompanyList";
 import Overlay from "./Overlay";
 
 import style from "./Modal.module.css";
 
 const Modal = () => {
   return (
-    <>
+    <div className={style.disabled}>
       <Overlay />
       <nav className={style.modal}>
         <div className={style.closeMenuContainer}>
           <img src={CloseMenu} alt="Close-menu button" />
         </div>
         <ul className={style.navList}>
-          <ModalList />
+         <FeatureList />
+         <CompanyList />
           <li>Careers</li>
           <li>About</li>
         </ul>
@@ -26,7 +29,7 @@ const Modal = () => {
           <button className={style.registerBtn}>Register</button>
         </section>
       </nav>
-    </>
+    </div>
   );
 };
 
