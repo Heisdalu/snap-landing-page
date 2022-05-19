@@ -10,7 +10,7 @@ const Content = () => {
     <section className={style.content}>
       <h1 className={style['content-title']}>Make remote work</h1>
       <p className={style.text}>
-        Get your team is sync, no matter your location. Streaming processes,
+        Get your team in sync, no matter your location. Streaming processes,
         create team rituals, and watch productivity soar.
       </p>
 

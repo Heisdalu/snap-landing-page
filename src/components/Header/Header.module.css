@@ -18,7 +18,7 @@
   }
   .header {
     gap: 1.5rem;
-    padding: 1rem 1.5rem ;
+    padding: 1rem 1.5rem;
   }
 
   .desktop--navList {
@@ -41,12 +41,33 @@
   .loginBtn {
     background: none;
     border: none;
+    color: hsl(0, 0%, 41%);
+    cursor: pointer;
+  }
+
+  .loginBtn:hover {
+    color: #000000;
   }
 
   .registerBtn {
+    cursor: pointer;
+    color: hsl(0, 0%, 41%);
     background: none;
     padding: 0.5rem 1rem;
     border-radius: 10px;
-    border: 1px solid hsl(0, 0%, 8%);
+    border: 1px solid hsla(0, 0%, 8%, 0.647);
+  }
+
+  .registerBtn:hover {
+    border: 2px solid #000000;
+    color: #000000;
+  }
+
+  .tag{
+    color: hsl(0, 0%, 41%);
+    cursor: pointer;
+  }
+  .tag:hover{
+    color: #000000;
   }
 }

@@ -6,6 +6,15 @@
   margin: 1rem 0;
   display: flex;
   gap: 1rem;
+  cursor: pointer;
+}
+
+.inner:hover .tag{
+  color: #000000;
+}
+
+.tag{
+  color: #696969;
 }
 
 .innerList {

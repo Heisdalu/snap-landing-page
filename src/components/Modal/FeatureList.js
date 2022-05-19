@@ -19,17 +19,17 @@ const FeatureList = () => {
 
   const changeArrow = activate ? (
     <span>
-      <img src={ArrowDown} alt="arrow down icon" />
+      <img src={ArrowUp} alt="arrow up icon" />
     </span>
   ) : (
     <span>
-      <img src={ArrowUp} alt="arrow up icon" />
+      <img src={ArrowDown} alt="arrow down icon" />
     </span>
   );
   return (
     <li className={style.toggleList}>
       <section className={style.inner} onClick={toggleHandler}>
-        <span>Features</span>
+        <span className={style.tag}>Features</span>
         <span className={style.navigateArrow}>{changeArrow}</span>
       </section>
       

@@ -15,8 +15,8 @@ const Header = () => {
         <ul className={style["desktop--navList"]}>
           <FeatureList />
           <CompanyList />
-          <li>Careers</li>
-          <li>About</li>
+          <li className={style.tag}>Careers</li>
+          <li className={style.tag}>About</li>
         </ul>
         <div className={style.buttonContainer}>
           <button className={style.loginBtn}>Login</button>
