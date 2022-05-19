@@ -19,7 +19,7 @@ const App = () => {
   return (
     <>
       {ReactDOM.createPortal(
-        <Overlay onShow={showMenu} />,
+        <Overlay onShow={showMenu} onHide={HideMenuHandler}/>,
         document.querySelector(".overlay")
       )}
       {ReactDOM.createPortal(
