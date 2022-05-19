@@ -8,13 +8,16 @@ import style from "./Modal.module.css";
 
 const Modal = (props) => {
   const classes = props.onShow ? style.modalContainer : style.disabled;
-  console.log(classes);
-  console.log(props.onShow);
+
+  props.onShow
+    ? (document.querySelector("body").style.overflowY = "hidden")
+    : (document.querySelector("body").style.overflowY = "scroll");
+
   return (
     <div className={classes}>
       <nav className={style.modal}>
         <div className={style.closeMenuContainer}>
-          <img src={CloseMenu} alt="Close-menu button" onClick={props.onHide}/>
+          <img src={CloseMenu} alt="Close-menu button" onClick={props.onHide} />
         </div>
         <ul className={style.navList}>
           <FeatureList />

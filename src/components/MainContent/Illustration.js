@@ -3,7 +3,6 @@ import Desktop_Image from "../../assets/image-hero-desktop.png";
 import style from './Illustration.module.css'
 
 const Illustration = () => {
-    console.log(style);
   return (
     <figure className={style.imageContainer}>
       <picture>
