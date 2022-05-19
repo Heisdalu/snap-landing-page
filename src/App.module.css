@@ -12,4 +12,5 @@ html ,body{
 
 body{
     font-family: 'Epilogue', sans-serif;
+    height: 100vh;
 }

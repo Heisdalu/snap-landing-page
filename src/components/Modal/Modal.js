@@ -1,25 +1,24 @@
-// import ArrowUp from '../../assets/icon-arrow-up.svg'
-// import ArrowDown from '../../assets/icon-arrow-down.svg'
+import React from "react";
 
 import CloseMenu from "../../assets/icon-close-menu.svg";
-// import ModalList from "./ModalList";
 import FeatureList from "./FeatureList";
 import CompanyList from "./CompanyList";
-import Overlay from "./Overlay";
 
 import style from "./Modal.module.css";
 
-const Modal = () => {
+const Modal = (props) => {
+  const classes = props.onShow ? style.modalContainer : style.disabled;
+  console.log(classes);
+  console.log(props.onShow);
   return (
-    <div className={style.disabled}>
-      <Overlay />
+    <div className={classes}>
       <nav className={style.modal}>
         <div className={style.closeMenuContainer}>
-          <img src={CloseMenu} alt="Close-menu button" />
+          <img src={CloseMenu} alt="Close-menu button" onClick={props.onHide}/>
         </div>
         <ul className={style.navList}>
-         <FeatureList />
-         <CompanyList />
+          <FeatureList />
+          <CompanyList />
           <li>Careers</li>
           <li>About</li>
         </ul>

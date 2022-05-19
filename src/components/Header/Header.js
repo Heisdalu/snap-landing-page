@@ -6,11 +6,12 @@ import CompanyList from "../Modal/CompanyList";
 
 import style from './Header.module.css'
 
-const Header = () => {
+const Header = (props) => {
+
   return (
     <header className={style.header}>
       <Logo />
-      <Menu />
+      <Menu onShow = {props.onShow}/>
       <nav className={style["desktop--navBar"]}>
         <ul className={style["desktop--navList"]}>
           <FeatureList />
