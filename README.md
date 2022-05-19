@@ -15,7 +15,7 @@ This is a solution to the [Intro section with dropdown navigation challenge on F
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://snap-landing-page.netlify.app](https://snap-landing-page.netlify.app)
 
 ## Installation
 First, 
