@@ -3,17 +3,16 @@
 } */
 
 .inner {
-  margin: 1rem 0;
   display: flex;
   gap: 1rem;
   cursor: pointer;
 }
 
-.inner:hover .tag{
+.inner:hover .tag {
   color: #000000;
 }
 
-.tag{
+.tag {
   color: #696969;
 }
 
@@ -27,14 +26,14 @@
 }
 
 @keyframes identifier {
-  0%{
+  0% {
     opacity: 0;
   }
-  50%{
+  50% {
     opacity: 0.5;
   }
 
-  100%{
+  100% {
     opacity: 1;
   }
 }
@@ -47,6 +46,7 @@
 
 @media screen and (min-width: 800px) {
   .inner {
+    margin: 1rem 0;
     gap: 0.5rem;
   }
 

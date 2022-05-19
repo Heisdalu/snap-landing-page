@@ -3,7 +3,6 @@
 } */
 
 .inner {
-  margin: 1rem 0;
   display: flex;
   gap: 1rem;
   cursor: pointer;
@@ -50,6 +49,7 @@
 
 @media screen and (min-width: 800px) {
   .inner {
+    margin: 1rem 0;
     gap: 0.5rem;
   }
 
