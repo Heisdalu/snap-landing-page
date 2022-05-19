@@ -1,7 +1,8 @@
 import style from './Overlay.module.css'
 
-const Overlay = () => {
-    return <div className={style.overlay}></div>
+const Overlay = (props) => {
+    const classes = props.onShow ? style.overlay: '';
+    return <div className={classes}></div>
 }
 
 export default Overlay;
