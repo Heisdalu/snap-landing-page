@@ -18,7 +18,7 @@ This is a solution to the [Intro section with dropdown navigation challenge on F
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## Installation
-Firstly, 
+First, 
 ### `npm install`
 
 And then, 
