@@ -13,7 +13,6 @@ const FeatureList = () => {
   const [activate, setActivate] = useState(false);
 
   const toggleHandler = () => {
-    console.log("djdjdjd");
     setActivate(!activate);
   };
 
